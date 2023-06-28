@@ -1,0 +1,7 @@
+.CardBody{
+    width: '18rem';
+    margin: 30px;
+}
+.CardText{
+    display:flex ;
+}
