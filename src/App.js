@@ -38,7 +38,7 @@ function App() {
       setToken(response);
       //resign token 
       JoblyApi.token=response;
-      const {username,password,email,firstName,lastName}=formData;
+      // const {username,password,email,firstName,lastName}=formData;
       setCurUser(formData);
       console.log(token)
       localStorage.setItem("jobToken",response)
